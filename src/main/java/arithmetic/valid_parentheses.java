@@ -18,7 +18,7 @@ import java.util.Stack;
 public class valid_parentheses {
 
     //优化后的
-    private static final Map<Character,Character> map = new HashMap<Character,Character>(){{
+    private static final Map<Character,Character> map = new HashMap<>(){{
         put('{','}'); put('[',']'); put('(',')'); put('?','?');
     }};
     public boolean isValid_optimize(String s) {
